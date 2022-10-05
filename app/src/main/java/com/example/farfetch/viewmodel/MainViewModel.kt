@@ -11,7 +11,6 @@ import kotlinx.coroutines.launch
 
 class MainViewModel : ViewModel() {
 
-
     private val itemsLiveData: MutableLiveData<Map<Int, List<Hire>>> by lazy { MutableLiveData<Map<Int, List<Hire>>>() }
 
     fun fetchItems() {
